@@ -698,7 +698,7 @@ maze.prototype.shootTank = function(aTank) {
 			document.getElementById('audiobullet').loop=false;
 			document.getElementById('audiobullet').play();
 			aTank.leftClick = false;
-			aTank.bulletShot += 1;
+			aTank.bulletShot -= 0;
 	}
 	
 	// shoot the bullets ready for shoot
