@@ -431,7 +431,7 @@ function Tank(){
 	this.leftClick = false;
 	this.reloading = false;
 	this.bulletReload = false;
-	this.bulletPack = 90090900945639432847326476570362764756256432567436272374382;
+	this.bulletPack = 100;
 	this.bulletShot = this.bulletPack;
 	this.bullet = null;
 	this.bullTank = 100;
