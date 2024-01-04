@@ -515,7 +515,7 @@ function keyDownHandler(e) {
 }
 	if(e.keyCode == 82){
 		tank1.reloading = true;
-		setTimeout(Reload,3000);
+		setTimeout(Reload,0);
 }
 }
 
@@ -698,7 +698,7 @@ maze.prototype.shootTank = function(aTank) {
 			document.getElementById('audiobullet').loop=false;
 			document.getElementById('audiobullet').play();
 			aTank.leftClick = false;
-			aTank.bulletShot -= 1;
+			aTank.bulletShot += 1;
 	}
 	
 	// shoot the bullets ready for shoot
