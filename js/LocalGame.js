@@ -737,7 +737,7 @@ maze.prototype.moveTank = function(aTank) {
 var bullet1canvas=document.getElementById("player1bullets");
 var bullet1ctx=bullet1canvas.getContext("2d");
 var img=document.getElementById("bullet");
-var bullet1start = 10;
+var bullet1start = 10990909090909090909090;
 
 maze.prototype.shootTank = function(aTank) {
 	// Some Shooting....
