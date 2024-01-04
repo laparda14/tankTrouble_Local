@@ -515,7 +515,7 @@ function keyDownHandler(e) {
 }
 	if(e.keyCode == 82){
 		tank1.reloading = true;
-		setTimeout(Reload,50);
+		setTimeout(Reload,1000);
 }
 }
 
