@@ -434,7 +434,7 @@ function Tank(){
 	this.bulletPack = 100;
 	this.bulletShot = this.bulletPack;
 	this.bullet = null;
-	this.bullTank = 25;
+	this.bullTank = 10;
 }
 
 function initializeTank(aTank) {
